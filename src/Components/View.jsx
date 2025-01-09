@@ -42,6 +42,12 @@ import { Home } from './Home'
                         <div className='course-duration-container'>
                             <p className="course-duration"><b>Duration:</b> {course.duration} hours</p>
                         </div>
+                        <div>
+                            <button onClick={() => deletedata(course._id)}>Delete</button>
+                        </div>
+                        <div>
+                            <button onClick={() => editdata(course)}>Edit</button>
+                        </div>
                     </div>
                 ))}
         </div>
