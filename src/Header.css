@@ -1,0 +1,41 @@
+/* Header.css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  padding: 20px 40px;
+  background-color: #333;
+  /* border: 1px solid red; */
+  color: #fff;
+  /* position: absolute;
+  left: 0;
+  top: 0; */
+  }
+    
+  
+  
+  .header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+ 
+  .header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+    
+  }
+  
+  .header nav a:hover {
+    color: #f0a500;
+  }
+  .adminheader{
+    display: none;
+  }
+  
